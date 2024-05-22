@@ -1,0 +1,16 @@
+
+.search-tab::after{
+    position: absolute;
+    z-index: 999999999999999;
+    background-color: rgba(255,255,255,0.5);
+    content:  attr(data-total-results);
+    color: red;
+    font-size: 1rem;
+    padding: 4px;
+    text-align: center;
+    aspect-ratio: 1/1 !important;
+    border: 2px solid white;
+    border-radius: 50%;
+    top:2px;
+    right: 10px;
+}

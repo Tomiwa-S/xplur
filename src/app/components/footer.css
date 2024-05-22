@@ -1,0 +1,26 @@
+body{
+  min-height: 100dvh;
+}
+.social{
+    all: unset;
+    cursor: pointer;
+    margin: 0 4px;
+    font-size: larger;
+}
+.social:hover .social:not(:hover)  {
+    filter: brightness(50%);
+}
+
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100dvw;
+    max-width: 100dvw;
+    margin-top: 3rem;
+    border-top: 1px solid white;
+    padding: 3rem 0;
+}
+.footer *{
+    height: max-content;
+    max-width: 100dvw;
+}

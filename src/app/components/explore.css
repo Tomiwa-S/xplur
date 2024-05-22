@@ -1,0 +1,27 @@
+.explore{
+    height:3rem;
+    display:flex;
+    align-items: center;
+    justify-content: right;
+    margin-bottom: 1rem;
+   
+}
+.explore-btn{
+    border:2px solid white;
+    font-weight:bold;
+    border:3px solid;
+    margin-right: 5rem;
+}
+.explore-btn:hover{
+   background:rgba(255,255,255,0.1);
+   border: 1px solid;
+   font-weight: lighter;
+   color: white;
+   transform: scale(1);
+}
+
+@media screen and (max-width:800px) {
+    .explore-btn{
+        margin-right: 1rem;
+    }
+}

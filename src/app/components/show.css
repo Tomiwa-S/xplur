@@ -1,0 +1,53 @@
+:root{
+    --show-width: 10rem;
+}
+
+.show-item{
+    min-height: max-content;
+    min-width: max-content;
+    max-width: max-content;
+    margin-right: 1rem;
+    border-radius: 4px;
+    padding-bottom: 1rem;
+    background-color: rgb(55, 52, 52);
+    border: 0.1px solid rgba(255, 255, 255, 0.3);
+}
+div .show-image{
+    width: var(--show-width);
+    position: relative;
+    aspect-ratio: 27/40;
+    border-radius: 6px;
+    overflow: hidden;
+}
+div .show-image:hover{
+    cursor: pointer;  
+}
+.s-image:hover{
+    filter: brightness(120%);
+    transform: scale(1.1);
+}
+.description{
+    text-wrap: wrap;
+}
+.description p{
+    width: var(--show-width);
+    font-size: 0.8rem;
+    font-weight: bold;
+    line-break: normal;
+    text-wrap: wrap;
+    /* border: 2px solid red; */
+    text-align: center;
+    margin-top: 0.1rem;
+}
+.movie-link{
+    all:unset;
+}
+
+@media screen and (max-width:500px){
+    :root{
+        --show-width:7rem;
+    }
+    div .show-image{
+        aspect-ratio: 3/4;
+    }
+}
